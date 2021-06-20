@@ -8,15 +8,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: VikyTech
-email: vikytech.mail@gmail.com
+title: Website Title
+email: some@mail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vikytech.site" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: vikytech007
-github_username:  vikytech
+url: "https://example.site" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: username
+github_username:  githubUsername
 github: [metadata]
 
 # Build settings
@@ -30,9 +30,6 @@ show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
 
 destination: docs/
-
-include:
-  - _pages/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
